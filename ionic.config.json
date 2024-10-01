@@ -1,0 +1,7 @@
+{
+  "name": "avaliadoradois",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
