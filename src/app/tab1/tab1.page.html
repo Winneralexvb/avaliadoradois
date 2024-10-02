@@ -1,17 +1,19 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Avaliação Formadora II
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div style="display: flex; justify-content: space-evenly; margin: 10px 0;">
+    <ion-button (click)="navigateTo('tab2')"><ion-icon name="chevron-back-outline"></ion-icon>Aluno</ion-button>
+    <ion-button (click)="navigateTo('tab3')">OMDb API<ion-icon name="chevron-forward-outline"></ion-icon></ion-button>
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div id="container">
+    <strong>Apresentação</strong>
+    <p>Desenvolver uma aplicação IONIC que possua link de navegação para 2 outras páginas e que possua uma API.</p>
+  </div>
 </ion-content>
